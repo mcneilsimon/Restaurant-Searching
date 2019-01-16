@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		2D5ACCE72075B221002AAD75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5ACCE62075B221002AAD75 /* AppDelegate.swift */; };
-		2D5ACCE92075B221002AAD75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5ACCE82075B221002AAD75 /* ViewController.swift */; };
 		2D5ACCEC2075B221002AAD75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D5ACCEA2075B221002AAD75 /* Main.storyboard */; };
 		2D5ACCEE2075B221002AAD75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D5ACCED2075B221002AAD75 /* Assets.xcassets */; };
 		2D5ACCF12075B221002AAD75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D5ACCEF2075B221002AAD75 /* LaunchScreen.storyboard */; };
+		2D5ACCF92075B2BA002AAD75 /* RestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5ACCF82075B2BA002AAD75 /* RestaurantViewController.swift */; };
+		2D89FDC82076F8FC00709E00 /* RestaurantsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D89FDC72076F8FC00709E00 /* RestaurantsPresenter.swift */; };
+		2D89FDCA2076F90D00709E00 /* RestaurantDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D89FDC92076F90D00709E00 /* RestaurantDataSource.swift */; };
+		2D89FDCC2076F99A00709E00 /* RestaurantsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D89FDCB2076F99A00709E00 /* RestaurantsCell.swift */; };
+		2D89FDCE2076FB6A00709E00 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D89FDCD2076FB6900709E00 /* Restaurant.swift */; };
+		2D89FDD22077111000709E00 /* RestaurantNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D89FDD12077111000709E00 /* RestaurantNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2D5ACCE32075B221002AAD75 /* CollectionViewSearching.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewSearching.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D5ACCE62075B221002AAD75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2D5ACCE82075B221002AAD75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2D5ACCEB2075B221002AAD75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D5ACCED2075B221002AAD75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D5ACCF02075B221002AAD75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D5ACCF22075B221002AAD75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D5ACCF82075B2BA002AAD75 /* RestaurantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewController.swift; sourceTree = "<group>"; };
+		2D89FDC72076F8FC00709E00 /* RestaurantsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsPresenter.swift; sourceTree = "<group>"; };
+		2D89FDC92076F90D00709E00 /* RestaurantDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDataSource.swift; sourceTree = "<group>"; };
+		2D89FDCB2076F99A00709E00 /* RestaurantsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsCell.swift; sourceTree = "<group>"; };
+		2D89FDCD2076FB6900709E00 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		2D89FDD12077111000709E00 /* RestaurantNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +65,12 @@
 			isa = PBXGroup;
 			children = (
 				2D5ACCE62075B221002AAD75 /* AppDelegate.swift */,
-				2D5ACCE82075B221002AAD75 /* ViewController.swift */,
+				2D89FDD12077111000709E00 /* RestaurantNavigationController.swift */,
+				2D5ACCF82075B2BA002AAD75 /* RestaurantViewController.swift */,
+				2D89FDC72076F8FC00709E00 /* RestaurantsPresenter.swift */,
+				2D89FDC92076F90D00709E00 /* RestaurantDataSource.swift */,
+				2D89FDCD2076FB6900709E00 /* Restaurant.swift */,
+				2D89FDCB2076F99A00709E00 /* RestaurantsCell.swift */,
 				2D5ACCEA2075B221002AAD75 /* Main.storyboard */,
 				2D5ACCED2075B221002AAD75 /* Assets.xcassets */,
 				2D5ACCEF2075B221002AAD75 /* LaunchScreen.storyboard */,
@@ -136,8 +151,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D5ACCE92075B221002AAD75 /* ViewController.swift in Sources */,
+				2D89FDC82076F8FC00709E00 /* RestaurantsPresenter.swift in Sources */,
+				2D89FDCA2076F90D00709E00 /* RestaurantDataSource.swift in Sources */,
+				2D89FDCE2076FB6A00709E00 /* Restaurant.swift in Sources */,
 				2D5ACCE72075B221002AAD75 /* AppDelegate.swift in Sources */,
+				2D89FDD22077111000709E00 /* RestaurantNavigationController.swift in Sources */,
+				2D89FDCC2076F99A00709E00 /* RestaurantsCell.swift in Sources */,
+				2D5ACCF92075B2BA002AAD75 /* RestaurantViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +293,11 @@
 		2D5ACCF62075B221002AAD75 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TKB32CN29K;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				INFOPLIST_FILE = CollectionViewSearching/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SimonMcNeil.CollectionViewSearching;
@@ -288,9 +310,11 @@
 		2D5ACCF72075B221002AAD75 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TKB32CN29K;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				INFOPLIST_FILE = CollectionViewSearching/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SimonMcNeil.CollectionViewSearching;
